@@ -1,0 +1,13 @@
+{
+  "id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in gromettoclara/iiifWorkshop2023 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json",
+    "label" : "Les Miserables"
+  } ]
+}
