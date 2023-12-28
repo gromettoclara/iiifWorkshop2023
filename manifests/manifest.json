@@ -1,0 +1,573 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Les Miserables",
+  "metadata" : [ {
+    "label" : {
+      "fr" : [ "Date" ]
+    },
+    "value" : {
+      "none" : [ "1845-1861" ]
+    }
+  }, {
+    "label" : {
+      "fr" : [ "Cote" ]
+    },
+    "value" : {
+      "fr" : [ "Bibliothèque nationale de France. Département des Manuscrits. NAF 13379\nFonds Victor Hugo. II -- ŒUVRES. Les Misérables. Tome premier (première, deuxième et troisième parties) et 13380\nFonds Victor Hugo. II -- ŒUVRES. Les Misérables. Tome deuxième (quatrième et cinquième parties)" ]
+    }
+  } ],
+  "description" : [ {
+    "@value" : "Unveil the secrets of Victor Hugo's manuscript Les Misérables.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Bibliothèque Nationale de France",
+  "logo" : {
+    "@id" : "https://gallica.bnf.fr/mbImage/logos/logo-bnf.png",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "http://example.org/service/inst1",
+      "profile" : "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "viewingHint" : "paged",
+  "thumbnail" : {
+    "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f15.thumbnail",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f15"
+    }
+  },
+  "structures" : [ {
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "ranges" : [ {
+      "@id" : "http://example.com/iiif/range/page1",
+      "@type" : "sc:Range",
+      "label" : "Beginning of the creation",
+      "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f268" ]
+    }, {
+      "@id" : "http://example.com/iiif/range/page2",
+      "@type" : "sc:Range",
+      "label" : "Two distinct phases",
+      "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f447" ]
+    }, {
+      "@id" : "http://example.com/iiif/range/page2",
+      "@type" : "sc:Range",
+      "label" : "End of the writting process",
+      "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f1138" ]
+    }, {
+      "@id" : "http://example.com/iiif/range/page2",
+      "@type" : "sc:Range",
+      "label" : "Decrypt the manuscript",
+      "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f904" ]
+    } ]
+  } ],
+  "sequences" : [ {
+    "@id" : "http://aacd712b-6d02-4d2d-999e-d2850cb020d3",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f15",
+      "label" : "2r",
+      "height" : 3762,
+      "width" : 3266,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f15",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f15"
+          },
+          "height" : 3762,
+          "width" : 3266,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f15/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f15.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13379",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f268",
+      "label" : "148r",
+      "height" : 3723,
+      "width" : 3006,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f268",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f268"
+          },
+          "height" : 3723,
+          "width" : 3006,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f268/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f268.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13379",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f270",
+      "label" : "149r",
+      "height" : 3723,
+      "width" : 3006,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f270",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f270"
+          },
+          "height" : 3723,
+          "width" : 3006,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f270/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f270.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13379",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f271",
+      "label" : "149v-150r",
+      "height" : 3720,
+      "width" : 5441,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f271",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f271"
+          },
+          "height" : 3720,
+          "width" : 5441,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f271/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f271.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13379",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f447",
+      "label" : "294v",
+      "height" : 4011,
+      "width" : 3412,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f447",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f447"
+          },
+          "height" : 4011,
+          "width" : 3412,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f447/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f447.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13380",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f448",
+      "label" : "296r, 298r",
+      "height" : 3998,
+      "width" : 3412,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f448",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f448"
+          },
+          "height" : 3998,
+          "width" : 3412,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f448/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f448.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13380",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f435",
+      "label" : "287v-288r",
+      "height" : 3997,
+      "width" : 5923,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f435",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f435"
+          },
+          "height" : 3997,
+          "width" : 5923,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f435/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f435.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13380",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f1138",
+      "label" : "828r",
+      "height" : 4061,
+      "width" : 3134,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f1138",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f1138"
+          },
+          "height" : 4061,
+          "width" : 3134,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f1138/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f1138.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13380",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f17",
+      "label" : "3r",
+      "height" : 3762,
+      "width" : 3266,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f17",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f17"
+          },
+          "height" : 3762,
+          "width" : 3266,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f17/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f17.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13379",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f904",
+      "label" : "534v",
+      "height" : 3624,
+      "width" : 2930,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f904",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f904"
+          },
+          "height" : 3624,
+          "width" : 2930,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f904/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f904.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13379",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f110",
+      "label" : "70r",
+      "height" : 3994,
+      "width" : 3045,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f110",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f110"
+          },
+          "height" : 3994,
+          "width" : 3045,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f110/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f110.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13380",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f28",
+      "label" : "9r",
+      "height" : 3762,
+      "width" : 3266,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f28",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f28"
+          },
+          "height" : 3762,
+          "width" : 3266,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f28/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f28.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13379",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f112",
+      "label" : "71r",
+      "height" : 3994,
+      "width" : 3045,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f112",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f112"
+          },
+          "height" : 3994,
+          "width" : 3045,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f112/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f112.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13380",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f927",
+      "label" : "547r",
+      "height" : 3612,
+      "width" : 2925,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f927",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f927"
+          },
+          "height" : 3612,
+          "width" : 2925,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f927/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f927.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13379",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f933",
+      "label" : "548v",
+      "height" : 3624,
+      "width" : 2930,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f933",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f933"
+          },
+          "height" : 3624,
+          "width" : 2930,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f933/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f933.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13379",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f516",
+      "label" : "297v",
+      "height" : 3734,
+      "width" : 3036,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f516",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f516"
+          },
+          "height" : 3734,
+          "width" : 3036,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/f516/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f516.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/manifest.json",
+        "label" : "BnF. Département des Manuscrits. NAF 13379",
+        "format" : ""
+      }
+    } ]
+  } ]
+}
