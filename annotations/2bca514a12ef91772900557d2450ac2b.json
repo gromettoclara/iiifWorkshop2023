@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "On November 17, 1845, to be precise, Victor Hugo begins the writing of his novel with what is now his second book, \"La Chute\" (The Fall).",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>On November 17, 1845, to be precise, Victor Hugo begins the writing of his novel with what is now his second book, \"La Chute\" (The Fall).</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T17:04:23",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703783063664",
+    "dcterms:modified" : "2023-12-28T17:04:36",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1167,1373,818,756"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1984.05796,2128.97534h-408.75339v0h-408.75339v-377.82861v-377.82861h408.75339h408.75339v377.82861z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"rectangle_24b46be9-eb1a-4617-adcf-bddfb2fa9d6a\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"15.46239\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f268"
+    } ]
+  } ],
+  "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/2bca514a12ef91772900557d2450ac2b.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
