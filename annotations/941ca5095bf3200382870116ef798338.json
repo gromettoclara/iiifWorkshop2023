@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "He resumed writing in 1861 while in exile in Guernsey, which explains this marginal note, likely added in 1860 : \"Here le Pair de France was interrupted, and the exile\" (at the end of the last full page accompanied by the date \"February 14, 1848\")\" &hellip; \"continued (at the beginning of the current page, accompagnied by the date \"30 d&eacute;cembre 1860\")\".",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>He resumed writing in 1861 while in exile in Guernsey, which explains this marginal note, likely added in 1860 : \"Here le Pair de France was interrupted, and the exile\" (at the end of the last full page accompanied by the date \"February 14, 1848\")\" &hellip; \"continued (at the beginning of the current page, accompagnied by the date \"30 d&eacute;cembre 1860\")\".</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T17:20:36",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703784036586",
+    "dcterms:modified" : "2023-12-28T17:42:41",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=560,289,1210,327"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M560.3058,288.85327h604.89026v0h604.89026v163.68064v163.68064h-604.89026h-604.89026v-163.68064z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_2d5ee94d-47fd-4f0e-a84e-95c067c7299d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"23.45355\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f448"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Here, when the february 1848 insurrection, soon turning into a revolution, interrupted the novel creation, Hugo had already started this page and this chapter. Moreover, the work had progressed sufficiently for the author to have already prepared and announced its publication. Later, Hugo notes in the margin of this paragraph : \"This was written on February 21, 1848.\"",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Here, when the february 1848 insurrection, soon turning into a revolution, interrupted the novel creation, Hugo had already started this page and this chapter. Moreover, the work had progressed sufficiently for the author to have already prepared and announced its publication. Later, Hugo notes in the margin of this paragraph : \"This was written on February 21, 1848.\"</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T17:33:39",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703784819229",
+    "dcterms:modified" : "2023-12-28T17:42:23",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=506,644,1170,1856"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M506.07891,643.79285h585.17139v0h585.17139v927.78668v927.78668h-585.17139h-585.17139v-927.78668z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_a8679093-7bb6-4464-95d7-a36af97c6c86\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"29.5783\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f448"
+    } ]
+  } ],
+  "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/941ca5095bf3200382870116ef798338.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
