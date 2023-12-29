@@ -1,0 +1,138 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Perhaps, for any relocation, it would be sufficient to substitute the street number... of *** Street instead of: the number 12 of Neuve-Sainte-Genevi&egrave;ve Street.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Perhaps, for any relocation, it would be sufficient to substitute the street number... of *** Street instead of: the number 12 of Neuve-Sainte-Genevi&egrave;ve Street.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T20:10:10",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703794210631",
+    "dcterms:modified" : "2023-12-28T20:10:10",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=690,231,866,651"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M816.60685,325.90034c79.97871,-54.70099 192.80163,-95.43496 306.1713,-95.38629v0v0c113.36966,0.04867 212.13366,38.15464 306.1713,95.38629c94.03764,57.23165 130.58888,144.44164 126.8203,230.28288c-3.76857,85.84124 -47.85696,170.31373 -126.8203,230.28288c-78.96334,59.96915 -192.80163,95.43496 -306.1713,95.38629c-113.36966,-0.04867 -226.27069,-35.61181 -306.1713,-95.38629c-79.9006,-59.77448 -126.80078,-143.76031 -126.8203,-230.28288c-0.01953,-86.52257 46.8416,-175.58189 126.8203,-230.28288z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_0e3850bf-a87b-430e-a474-9e82c00b9811\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f933"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "January 2, 1862. In making the final revision, I decide to put everything in the imperfect and past tense on the copy, but I leave the manuscript as it is.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>January 2, 1862. In making the final revision, I decide to put everything in the imperfect and past tense on the copy, but I leave the manuscript as it is.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T20:09:37",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703794177538",
+    "dcterms:modified" : "2023-12-28T20:09:37",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=118,1598,997,625"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M264.10069,1689.44546c92.06635,-52.50264 221.94085,-91.59959 352.44472,-91.55288v0v0c130.50387,0.04671 244.19464,36.62127 352.44472,91.55288c108.25009,54.93161 150.32553,138.63677 145.98738,221.02819c-4.33814,82.39142 -55.08986,163.4691 -145.98738,221.02819c-90.89752,57.55909 -221.94085,91.59959 -352.44472,91.55288c-130.50387,-0.04671 -260.46828,-34.18063 -352.44472,-91.55288c-91.97644,-57.37225 -145.96491,-137.98282 -145.98738,-221.02819c-0.02248,-83.04537 53.92103,-168.52555 145.98738,-221.02819z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_e8d37ffc-f5f5-4f30-b3f0-3d2022bc6d99\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f933"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Keep the manuscript as it is, and in the event that, given the current regime (1860), I deem it necessary to relocate the convent, make this alteration only on the copy. (In case of relocation, transfer the convent to rue de Lourcine or de l'Arbal&egrave;te.)",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Keep the manuscript as it is, and in the event that, given the current regime (1860), I deem it necessary to relocate the convent, make this alteration only on the copy. (In case of relocation, transfer the convent to rue de Lourcine or de l'Arbal&egrave;te.)</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T20:08:42",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703794122645",
+    "dcterms:modified" : "2023-12-28T20:08:42",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=136,597,908,1081"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M268.9413,755.19006c83.84675,-90.75379 202.12618,-158.33506 320.97879,-158.25432v0v0c118.85261,0.08074 222.39317,63.30193 320.97879,158.25432c98.58562,94.95238 136.90461,239.64149 132.95377,382.05972c-3.95084,142.41823 -50.17149,282.56558 -132.95377,382.05972c-82.78228,99.49414 -202.12618,158.33506 -320.97879,158.25432c-118.85261,-0.08074 -237.21392,-59.08315 -320.97879,-158.25432c-83.76487,-99.17117 -132.9333,-238.5111 -132.95377,-382.05972c-0.02047,-143.54862 49.10702,-291.30593 132.95377,-382.05972z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_6c9d5662-f40d-4c16-b856-c2925594701b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f933"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Here is an other example, book IV &laquo; Le petit Picpus &raquo;...\nWe will need to refer again to the end of the manuscript to find the final text, revised and corrected by Victor Hugo.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Here is an other example, book IV &laquo; Le petit Picpus &raquo;...</p>\n<p>We will need to refer again to the end of the manuscript to find the final text, revised and corrected by Victor Hugo.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T20:07:37",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703794057808",
+    "dcterms:modified" : "2023-12-28T20:10:46",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1795,457,11,17"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1800.1418,473.66708c0,-3.7238 1.8619,-7.44759 5.5857,-11.17139c0,-3.08489 -2.5008,-5.5857 -5.5857,-5.5857c-3.08489,0 -5.5857,2.5008 -5.5857,5.5857c3.7238,3.7238 5.5857,7.44759 5.5857,11.17139z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_06644e21-2196-4656-99ed-1be81a9599f9\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6.70284\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f933"
+    } ]
+  } ],
+  "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/9f3338175bd29ecf9d385f6c81efb573.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
