@@ -1,0 +1,105 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Most corrections in the text are made late, including the correction from Jean Tr&eacute;jean to Jean Vlajean, and later Valjean.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Most corrections in the text are made late, including the correction from Jean Tr&eacute;jean to Jean Vlajean, and later Valjean.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T19:59:34",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703793574981",
+    "dcterms:modified" : "2023-12-28T19:59:34",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1432,1745,391,243"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1431.7201,1745.20592h195.38224v0h195.38224v121.65105v121.65105h-195.38224h-195.38224v-121.65105z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_7c7dc960-4b53-4aef-b1ba-56414c0e8874\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f904"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "This marginal addition&nbsp; at the bottom belongs to the first phase, the line is thiner, and Jean Tr&eacute;jean was already corrected in Jean Valjean.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>This marginal addition&nbsp; at the bottom belongs to the first phase, the line is thiner, and Jean Tr&eacute;jean was already corrected in Jean Valjean.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T17:49:54",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703785794173",
+    "dcterms:modified" : "2023-12-28T17:49:54",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=210,1850,1103,833"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M209.80985,1849.52583h551.58199v0h551.58199v416.35132v416.35132h-551.58199h-551.58199v-416.35132z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_7205725a-80fc-4dc3-97ef-be108d3ab02a\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f904"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "The two distinct phases of the writing process are visible. The marginal addition at the top belongs to the second phase, the line is thicker.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>The two distinct phases of the writing process are visible. The marginal addition at the top belongs to the second phase, the line is thicker.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T17:49:07",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703785747024",
+    "dcterms:modified" : "2023-12-28T17:49:07",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=380,803,1023,688"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M380.45807,803.09808h511.33476v0h511.33476v343.90632v343.90632h-511.33476h-511.33476v-343.90632z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_1f4f19b8-17c7-4f62-94e0-5fddf68d3b01\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f904"
+    } ]
+  } ],
+  "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/8d2b30e36662764a62b737af6c7a6da9.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
