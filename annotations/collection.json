@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://gromettoclara.github.io/iiifWorkshop2023/annotations/0ad87f95a3d711f93ae25585e0a2cc67.json" ],
+  "otherContent" : [ "https://gromettoclara.github.io/iiifWorkshop2023/annotations/0ad87f95a3d711f93ae25585e0a2cc67.json", "https://gromettoclara.github.io/iiifWorkshop2023/annotations/2bca514a12ef91772900557d2450ac2b.json" ],
   "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/collection.json",
   "label" : "All annotations loaded in gromettoclara/iiifWorkshop2023 project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
