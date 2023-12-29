@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Through the vast diversity of characters and themes explored in the work, Victor Hugo pursues one purpose, '...as long as the three problems of the century, the degradation of man by the proletariat, the decline of woman through hunger, the atrophy of the child by the night, are not resolved... books like this may not be useless.' This note, dated January 1, 1862, at Hauteville House (Guernsey), is reproduced in the printed edition.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Through the vast diversity of characters and themes explored in the work, Victor Hugo pursues one purpose, '...as long as the three problems of the century, the degradation of man by the proletariat, the decline of woman through hunger, the atrophy of the child by the night, are not resolved... books like this may not be useless.' This note, dated January 1, 1862, at Hauteville House (Guernsey), is reproduced in the printed edition.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T17:45:31",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703785531439",
+    "dcterms:modified" : "2023-12-28T17:45:31",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=383,234,2461,3218"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M383.47178,234.18229h1230.59446v0h1230.59446v1608.93122v1608.93122h-1230.59446h-1230.59446v-1608.93122z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_ec8fd6a3-0383-435e-b28d-163a781028af\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f17"
+    } ]
+  } ],
+  "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/c8e3e7e754705ced45b5655a1813d1a3.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
