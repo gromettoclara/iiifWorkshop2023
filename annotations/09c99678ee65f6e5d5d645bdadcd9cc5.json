@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "In 1845, despite being shattered by the recent death of his daughter L&eacute;opoldine, Victor Hugo envisions the writing of a grand novel addressing the current events of the nineteenth century, perhaps to compete with Balzac, who is beginning the construction of the Com&eacute;die Humaine. He may have been thinking about it for a long time, but has yet to write much. His new dignity as a Pair de France allows him to consider a promising political career. However, it is immediately compromised by the public discovery of an adultery with the young L&eacute;onie d'Aunet, wife of Biard. The affair is more or less hushed up, but Hugo is strongly advised to fade for some time, leading him to seclude himself to work.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>In 1845, despite being shattered by the recent death of his daughter L&eacute;opoldine, Victor Hugo envisions the writing of a grand novel addressing the current events of the nineteenth century, perhaps to compete with Balzac, who is beginning the construction of the Com&eacute;die Humaine. He may have been thinking about it for a long time, but has yet to write much. His new dignity as a Pair de France allows him to consider a promising political career. However, it is immediately compromised by the public discovery of an adultery with the young L&eacute;onie d'Aunet, wife of Biard. The affair is more or less hushed up, but Hugo is strongly advised to fade for some time, leading him to seclude himself to work.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T17:02:46",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703782965787",
+    "dcterms:modified" : "2023-12-28T17:02:46",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=728,745,2077,1393"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1031.833,949.24303c191.72958,-117.00679 462.19523,-204.13778 733.97154,-204.03368v0v0c271.77631,0.1041 508.53907,81.61374 733.97154,204.03368c225.43247,122.41994 313.05521,308.96431 304.02097,492.58088c-9.03425,183.61657 -114.72548,364.30536 -304.02097,492.58088c-189.29549,128.27552 -462.19523,204.13778 -733.97154,204.03368c-271.77631,-0.1041 -542.42919,-76.17456 -733.97154,-204.03368c-191.54235,-127.85913 -303.97416,-307.50692 -304.02097,-492.58088c-0.04681,-185.07396 112.29138,-375.57409 304.02097,-492.58088z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_604dae4a-ba3b-4875-bfa4-a0c1f30b92aa\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f15"
+    } ]
+  } ],
+  "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/09c99678ee65f6e5d5d645bdadcd9cc5.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
