@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Transcription and translation of this very slightly edited passage :&nbsp;\"The man headed towards this inn, which was the best in the area. He entered the kitchen, which opened directly onto the street. All the stoves were lit; a large fire blazed cheerfully in the fireplace. The host, who was also the chef, moved from the hearth to the pots, busy overseeing an excellent dinner for teamsters whose loud laughter and conversation could be heard in a nearby room. Anyone who has traveled knows that no one eats better than teamsters. A chubby marmot, accompagnied by white partridges and grouse, rotated on a long spit in front of the fire; on the stoves, two large carp from Lake Lauzet and a trout from Lake Alloz were cooking. The host, hearing the door open and a newcomer enter, said without lifting his eyes from the stoves:\n- What does the gentleman want?\n- To eat and sleep, said the man.\"",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Transcription and translation of this very slightly edited passage :&nbsp;<br /><br />\"The man headed towards this inn, which was the best in the area. He entered the kitchen, which opened directly onto the street. All the stoves were lit; a large fire blazed cheerfully in the fireplace. The host, who was also the chef, moved from the hearth to the pots, busy overseeing an excellent dinner for teamsters whose loud laughter and conversation could be heard in a nearby room. Anyone who has traveled knows that no one eats better than teamsters. A chubby marmot, accompagnied by white partridges and grouse, rotated on a long spit in front of the fire; on the stoves, two large carp from Lake Lauzet and a trout from Lake Alloz were cooking. The host, hearing the door open and a newcomer enter, said without lifting his eyes from the stoves:</p>\n<p>- What does the gentleman want?</p>\n<p>- To eat and sleep, said the man.\"</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-29T08:40:53",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703839253223",
+    "dcterms:modified" : "2023-12-29T08:40:53",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=3759,1111,1320,1860"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3759.29278,1110.67221h659.76652v0h659.76652v930.22784v930.22784h-659.76652h-659.76652v-930.22784z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_2befb3b3-2db9-4571-9adf-99a08f2313f1\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f271"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Jean Valjean arrival in Digne.&nbsp;",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Jean Valjean arrival in Digne.&nbsp;</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-29T08:41:27",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703839287134",
+    "dcterms:modified" : "2023-12-29T08:41:27",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=686,1294,39,58"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M705.07979,1352.22367c0,-12.87911 6.43956,-25.75822 19.31867,-38.63733c0,-10.6694 -8.64926,-19.31867 -19.31867,-19.31867c-10.6694,0 -19.31867,8.64926 -19.31867,19.31867c12.87911,12.87911 19.31867,25.75822 19.31867,38.63733z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_2785112b-33b0-417c-bcfa-85c8b8236ac1\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f271"
+    } ]
+  } ],
+  "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/d8c5763802fdb98a57a5c3b4a57597c5.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
