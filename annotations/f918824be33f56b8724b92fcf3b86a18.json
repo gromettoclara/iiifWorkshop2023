@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "The novel opened with the arrival of a liberated convict wearing a cap and backpack &laquo; in the small town of Digne &raquo;.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>The novel opened with the arrival of a liberated convict wearing a cap and backpack &laquo; in the small town of Digne &raquo;.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/129292328",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-28T17:05:51",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1703783151331",
+    "dcterms:modified" : "2023-12-28T17:05:51",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2418,1027,325,105"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2418.32727,1026.81616h162.67273v0h162.67273v52.70909v52.70909h-162.67273h-162.67273v-52.70909z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_9cf4b6dc-3dc1-43da-9c91-955c5c51f1f8\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f270"
+    } ]
+  } ],
+  "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/f918824be33f56b8724b92fcf3b86a18.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
