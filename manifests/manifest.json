@@ -3,6 +3,11 @@
   "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json",
   "@type" : "sc:Manifest",
   "label" : "Les Miserables",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/129292328/3451c5ae9ce9a9a533e4bc65d4a60ca7/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : {
       "fr" : [ "Date" ]
@@ -94,6 +99,11 @@
         },
         "@type" : "oa:Annotation"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/09c99678ee65f6e5d5d645bdadcd9cc5.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f15.thumbnail"
       },
@@ -124,6 +134,11 @@
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/2bca514a12ef91772900557d2450ac2b.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f268.thumbnail"
@@ -156,6 +171,11 @@
         },
         "@type" : "oa:Annotation"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/f918824be33f56b8724b92fcf3b86a18.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f270.thumbnail"
       },
@@ -186,6 +206,11 @@
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/d8c5763802fdb98a57a5c3b4a57597c5.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f271.thumbnail"
@@ -218,6 +243,11 @@
         },
         "@type" : "oa:Annotation"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/6f5fc7b2d2f5aa58d85e4e97690cd422.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f447.thumbnail"
       },
@@ -248,6 +278,11 @@
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/941ca5095bf3200382870116ef798338.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f448.thumbnail"
@@ -280,6 +315,11 @@
         },
         "@type" : "oa:Annotation"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/8aa3eebb79ae0bf397e03313b03d846f.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f435.thumbnail"
       },
@@ -310,6 +350,11 @@
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/9894990d9d967e23007772e9730ed4c5.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f1138.thumbnail"
@@ -342,6 +387,11 @@
         },
         "@type" : "oa:Annotation"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/c8e3e7e754705ced45b5655a1813d1a3.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f17.thumbnail"
       },
@@ -372,6 +422,11 @@
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/8d2b30e36662764a62b737af6c7a6da9.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f904.thumbnail"
@@ -404,6 +459,11 @@
         },
         "@type" : "oa:Annotation"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/748b30c27bf7cfcef399f3973ad43111.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f110.thumbnail"
       },
@@ -434,6 +494,11 @@
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/e2535ab631fc07eb401bc93cec93fec2.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f28.thumbnail"
@@ -466,6 +531,11 @@
         },
         "@type" : "oa:Annotation"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/0ad87f95a3d711f93ae25585e0a2cc67.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f112.thumbnail"
       },
@@ -496,6 +566,11 @@
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/251653b6396a16f5d05dea63eb482be4.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f927.thumbnail"
@@ -528,6 +603,11 @@
         },
         "@type" : "oa:Annotation"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/9f3338175bd29ecf9d385f6c81efb573.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f933.thumbnail"
       },
@@ -558,6 +638,11 @@
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/7cbe0eca805bcb8673e02ec63129eea3.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "thumbnail" : {
         "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f516.thumbnail"
