@@ -1,0 +1,89 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifestVE.json",
+  "@type" : "sc:Manifest",
+  "label" : "Virtual expo",
+  "metadata" : [ {
+    "label" : {
+      "fr" : [ "Date" ]
+    },
+    "value" : {
+      "none" : [ "1845-1861" ]
+    }
+  }, {
+    "label" : {
+      "fr" : [ "Cote" ]
+    },
+    "value" : {
+      "fr" : [ "Bibliothèque nationale de France. Département des Manuscrits. NAF 13379\nFonds Victor Hugo. II -- ŒUVRES. Les Misérables. Tome premier (première, deuxième et troisième parties) et 13380\nFonds Victor Hugo. II -- ŒUVRES. Les Misérables. Tome deuxième (quatrième et cinquième parties)" ]
+    }
+  } ],
+  "description" : [ {
+    "@value" : "trying to create a virtual expo thank to the tool : storiiies",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Bibliothèque Nationale de France",
+  "logo" : {
+    "@id" : "https://gallica.bnf.fr/mbImage/logos/logo-bnf.png",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "http://example.org/service/inst1",
+      "profile" : "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "viewingHint" : "paged",
+  "thumbnail" : {
+    "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f15.thumbnail",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f15"
+    }
+  },
+  "sequences" : [ {
+    "@id" : "http://426db0a3-b5a1-4d1e-bcf1-b31fe7ec3df9",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f447",
+      "label" : "294v",
+      "height" : 4011,
+      "width" : 3412,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f447",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f447"
+          },
+          "height" : 4011,
+          "width" : 3412,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f447/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/6f5fc7b2d2f5aa58d85e4e97690cd422.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f447.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json",
+        "label" : "Les Miserables",
+        "format" : ""
+      }
+    } ]
+  } ],
+  "structures" : [ ]
+}
