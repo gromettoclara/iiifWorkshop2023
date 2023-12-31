@@ -1,89 +1,148 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifestVE.json",
-  "@type" : "sc:Manifest",
-  "label" : "Virtual expo",
-  "metadata" : [ {
-    "label" : {
-      "fr" : [ "Date" ]
-    },
-    "value" : {
-      "none" : [ "1845-1861" ]
-    }
-  }, {
-    "label" : {
-      "fr" : [ "Cote" ]
-    },
-    "value" : {
-      "fr" : [ "Bibliothèque nationale de France. Département des Manuscrits. NAF 13379\nFonds Victor Hugo. II -- ŒUVRES. Les Misérables. Tome premier (première, deuxième et troisième parties) et 13380\nFonds Victor Hugo. II -- ŒUVRES. Les Misérables. Tome deuxième (quatrième et cinquième parties)" ]
-    }
-  } ],
-  "description" : [ {
-    "@value" : "trying to create a virtual expo thank to the tool : storiiies",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "Bibliothèque Nationale de France",
-  "logo" : {
-    "@id" : "https://gallica.bnf.fr/mbImage/logos/logo-bnf.png",
-    "service" : {
-      "@context" : "http://iiif.io/api/image/2/context.json",
-      "@id" : "http://example.org/service/inst1",
-      "profile" : "http://iiif.io/api/image/2/level2.json"
-    }
-  },
-  "viewingHint" : "paged",
-  "thumbnail" : {
-    "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000941q/f15.thumbnail",
-    "service" : {
-      "@context" : "http://iiif.io/api/image/2/context.json",
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f15"
-    }
-  },
-  "sequences" : [ {
-    "@id" : "http://426db0a3-b5a1-4d1e-bcf1-b31fe7ec3df9",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
-    } ],
-    "canvases" : [ {
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f447",
-      "label" : "294v",
-      "height" : 4011,
-      "width" : 3412,
-      "images" : [ {
-        "motivation" : "sc:painting",
-        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/canvas/f447",
-        "resource" : {
-          "format" : "image/jpeg",
-          "service" : {
-            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
-            "@context" : "http://iiif.io/api/image/1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f447"
-          },
-          "height" : 4011,
-          "width" : 3412,
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f447/full/full/0/native.jpg",
-          "@type" : "dctypes:Image"
-        },
-        "@type" : "oa:Annotation"
-      } ],
-      "otherContent" : [ {
-        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/annotations/6f5fc7b2d2f5aa58d85e4e97690cd422.json",
-        "@type" : "sc:AnnotationList",
-        "label" : "My fantastic annotations"
-      } ],
-      "thumbnail" : {
-        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b60009424/f447.thumbnail"
-      },
-      "@type" : "sc:Canvas",
-      "related" : {
-        "@id" : "https://gromettoclara.github.io/iiifWorkshop2023/manifests/manifest.json",
-        "label" : "Les Miserables",
-        "format" : ""
-      }
-    } ]
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7",
+"type": "Manifest",
+"label": {
+"en": [
+"Virtual Expo"
+]
+},
+"metadata": [
+{
+"label": {
+"en": [
+"Author"
+]
+},
+"value": {
+"en": [
+"Clara GROMETTO"
+]
+}
+},
+{
+"label": {
+"en": [
+"Provider"
+]
+},
+"value": {
+"en": [
+"cogapp"
+]
+}
+}
+],
+"items": [
+{
+"id": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/canvases/1",
+"type": "Canvas",
+"height": 4011,
+"width": 3412,
+"items": [
+{
+"id": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/pages/image/1",
+"type": "AnnotationPage",
+"items": [
+{
+"id": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/annotations/image/1",
+"type": "Annotation",
+"motivation": "painting",
+"body": {
+"id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f447/full/full/0/default.jpg",
+"type": "Image",
+"format": "image/jpeg",
+"height": 4011,
+"width": 3412,
+"service": [
+{
+"id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b60009424/f447",
+"profile": "level2",
+"type": "ImageService2"
+}
+]
+},
+"target": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/canvases/1"
+}
+]
+}
+],
+"annotations": [
+{
+"id": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/pages/text/1",
+"type": "AnnotationPage",
+"items": [
+{
+"id": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/pages/text/1/annotation/0",
+"type": "Annotation",
+"motivation": "commenting",
+"body": {
+"type": "TextualBody",
+"value": "The February 1848 revolution interrupted the initial phase of writing. La Chambre des Pairs is abolished; Hugo enters the Assemblée Nationale a few months later, dedicating himself to political life, and he stops writing. More than three-quarters of the novel, still called 'Les Misères,'(perhaps in response to Balzac's « Splendeurs et misères des courtisanes ») is already written, even though the overall length barely reaches half of what will be the final volume—this gap is explained by the several developments added later. Through the examination of the manuscript, thanks to the pioneering work of René Journet and Guy Robert, and the new possibilities offered by online publishing, the first draft of the novel and its state at the time of its interruption in February 1848 have been reconstructed by Guy Rosa. This is now the best available edition, both for establishing the text and for studying its genesis, freely accessible.",
+"language": "en",
+"format": "text/plain"
+},
+"target": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/canvases/1#xywh=-626,264,5279,3714"
+},
+{
+"id": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/pages/text/1/annotation/1",
+"type": "Annotation",
+"motivation": "commenting",
+"body": {
+"type": "TextualBody",
+"value": "Strangely enough, Victor Hugo was precisely narrating the barricades of 1832 when those of 1848 were being constructed.",
+"language": "en",
+"format": "text/plain"
+},
+"target": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/canvases/1#xywh=413,484,2750,1934"
+},
+{
+"id": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/pages/text/1/annotation/2",
+"type": "Annotation",
+"motivation": "commenting",
+"body": {
+"type": "TextualBody",
+"value": "- Take it. Leave the barricade immediately. (Chavroche, uneasy, began to scratch his ear.) Marius continued, \"And tomorrow morning, you'll return it to her address, care of Mr. Fauchelevent, Man-at-Arms Street, No. 7.\"\n- The heroic child became sad and replied, \"Oh well! In the meantime, they'll take the barricade, and I won't be there.\"\n- The barricade will likely only be attacked at daybreak and won't be taken before tomorrow noon, responded Marius.",
+"language": "en",
+"format": "text/plain"
+},
+"target": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/canvases/1#xywh=1580,1318,1326,933"
+},
+{
+"id": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/pages/text/1/annotation/3",
+"type": "Annotation",
+"motivation": "commenting",
+"body": {
+"type": "TextualBody",
+"value": "Before 1860, Gavroche was named Chavroche.",
+"language": "en",
+"format": "text/plain"
+},
+"target": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/canvases/1#xywh=1278,2292,1177,828"
+},
+{
+"id": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/pages/text/1/annotation/4",
+"type": "Annotation",
+"motivation": "commenting",
+"body": {
+"type": "TextualBody",
+"value": "Here is a note added in 1860 that marks the interruption \"Here the Pair de France was interrupted, and the exile ...\" \n\nOn the next page : \"... has continued\" followed bay the date : december the 30th 1860. Hugo will resume writting while in exil in Guernesey. ",
+"language": "en",
+"format": "text/plain"
+},
+"target": "https://manifest.storiiies-editor.cogapp.com/v3/ad5h7/canvases/1#xywh=799,3006,1413,994"
+}
+]
+}
+]
+}
+],
+"summary": {
+"en": [
+"<p>By Clara GROMETTO</p>"
+]
+}
+}
   } ],
   "structures" : [ ]
 }
