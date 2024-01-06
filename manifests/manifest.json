@@ -144,7 +144,7 @@
     {
       "@id" : "http://example.com/iiif/range/page2",
       "@type" : "sc:Range",
-      "label" : "image 15",
+      "label" : "image 16",
       "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000941q/canvas/f516" ]
     }]
   }
